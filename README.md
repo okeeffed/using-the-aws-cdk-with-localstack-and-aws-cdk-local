@@ -1,6 +1,8 @@
 # AWS CDK With TypeScript Foundations
 
-This the companion repo to my blog post [AWS CDK With Typescript Foundations](https://blog.dennisokeeffe.com/blog/2021-08-06-aws-cdk-with-typescript-foundations).
+This the companion repo to my blog post [Using the AWS CDK With LocalStack and aws-cdk-local](https://blog.dennisokeeffe.com/blog/2021-08-07-using-the-aws-cdk-with-localstack-and-aws-cdk-local.)
+
+It follows from the original post [AWS CDK With Typescript Foundations](https://blog.dennisokeeffe.com/blog/2021-08-06-aws-cdk-with-typescript-foundations).
 
 It will create a simple S3 bucket and tear that bucket down when destroyed.
 
