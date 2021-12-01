@@ -40,6 +40,15 @@ export class CdkStarterStack extends cdk.Stack {
       'allow HTTPS traffic from anywhere',
     );
 
+        // 👇 create a Role for the EC2 Instance
+    const webserverRole = new iam.Role(this, 'Sourcegraph-server', {
+      assumedBy: new iam.ServicePrincipal('ec2.amazonaws.com'),
+      managedPolicies: [
+        iam.ManagedPolicy.fromAwsManagedPolicyName('AmazonS3ReadOnlyAccess'),]
+      }
+    );
+
+
 
     
   }
