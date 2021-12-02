@@ -67,5 +67,3 @@ import {readFileSync} from 'fs';
 
 
     
-  }
-}
