@@ -18,6 +18,7 @@
     "@types/jest": "27.0.3",
     "@types/node": "16.11.11",
     "aws-cdk": "1.134.0",
+    "aws-cdk-local": "^1.65.8",
     "jest": "27.4.3",
     "ts-jest": "27.0.7",
     "ts-node": "10.4.0",
@@ -29,7 +30,6 @@
     "@aws-cdk/aws-ecs-patterns": "1.134.0",
     "@aws-cdk/aws-s3": "1.134.0",
     "@aws-cdk/core": "1.134.0",
-    "aws-cdk-local": "1.65.8",
     "source-map-support": "0.5.21"
   }
 }
