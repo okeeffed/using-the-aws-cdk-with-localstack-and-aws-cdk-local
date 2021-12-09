@@ -15,6 +15,7 @@ export class AwsCdkWithTypescriptFoundationsStack extends cdk.Stack {
       subnetConfiguration: [
         {name: 'public', cidrMask: 24, subnetType: ec2.SubnetType.PUBLIC},
       ],
+      
     });
 
         // 👇 create Security Group for the Instance

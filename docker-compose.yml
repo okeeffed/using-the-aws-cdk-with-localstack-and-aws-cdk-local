@@ -3,6 +3,7 @@ services:
   localstack:
     image: localstack/localstack
     ports:
+      - "53:53"
       - "443:443"
       - "4510-4520:4510-4520"
       - "4566-4620:4566-4620"
